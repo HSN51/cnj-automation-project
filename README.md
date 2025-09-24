@@ -1,15 +1,15 @@
-# CNJ Automation Project
+#CNJ Automation Project
 
-Bu proje CNJ (Conselho Nacional de Justiça) sisteminde otomatik işlemler gerçekleştirmek için geliştirilmiştir.
+This project was developed to perform automated operations in the CNJ (Conselho Nacional de Justiça) system.
 
-## Kurulum
+## Installation
 
-1. Python virtual environment oluşturun:
+1. Create a Python virtual environment:
 ```bash
 python -m venv venv
 ```
 
-2. Virtual environment'ı aktifleştirin:
+2. Activate the virtual environment:
 ```bash
 # Windows
 venv\Scripts\activate
@@ -18,39 +18,39 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-3. Gerekli paketleri yükleyin:
+3. Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Environment variables dosyasını oluşturun:
+4. Create the environment variables file:
 ```bash
 cp .env.example .env
 ```
 
-5. `.env` dosyasındaki değerleri kendi bilgilerinizle güncelleyin:
-   - `TWOCAPTCHA_API_KEY`: 2Captcha servisinden aldığınız API key
-   - `USER_PROFILE_DIR`: Chrome user profile dizininizin yolu
-   - `DEFAULT_CPF`: Test için kullanılacak CPF numarası
-   - `HEADLESS`: Browser'ı gizli modda çalıştırıp çalıştırmama
+5. Update the values ​​in the `.env` file with your own information:
+- `TWOCAPTCHA_API_KEY`: The API key you obtained from the 2Captcha service
+- `USER_PROFILE_DIR`: The path to your Chrome user profile directory
+- `DEFAULT_CPF`: The CPF number to use for testing
+- `HEADLESS`: Run the browser in incognito mode not running
 
-## Kullanım
+## Usage
 
 ```bash
 python cnj_automation.py
 ```
 
-## Gereksinimler
+## Requirements
 
 - Python 3.7+
 - Chrome/Chromium browser
-- 2Captcha hesabı (captcha çözümü için)
+- 2 Captcha accounts (for captcha solving)
 
-## Güvenlik
+## Security
 
-- `.env` dosyası Git'e yüklenmez ve API key'leriniz gizli kalır
-- Lütfen API key'lerinizi paylaşmayın
+- The `.env` file will not be uploaded to Git, and your API keys will remain private.
+- Please do not share your API keys.
 
-## Lisans
+## License
 
-Bu proje eğitim amaçlı geliştirilmiştir.
+This project is developed for educational purposes.
