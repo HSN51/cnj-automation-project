@@ -224,10 +224,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, suggestions, or collaboration opportunities:
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **Project Issues**: [GitHub Issues](https://github.com/yourusername/cnj-automation-project/issues)
+- **Email**: hgumustepe1@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/hasan-huseyin-gumustepe/
+- **Project Issues**: https://github.com/HSN51/cnj-automation-project/issues
 
 ---
 
-**⚡ Built with Python • Powered by AI • Automated with ❤️**
+
